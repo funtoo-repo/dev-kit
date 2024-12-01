@@ -1,0 +1,13 @@
+BDEPEND=>=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install postinst prepare unpack
+DESCRIPTION=Run your GitHub Actions locally
+EAPI=7
+HOMEPAGE=https://github.com/nektos/act
+KEYWORDS=*
+LICENSE=MIT
+RDEPEND=app-emulation/docker
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/nektos/act/tarball/beef4d63737b9d206a36f37adc1d3701fdd27416 -> act-0.2.70-beef4d6.tar.gz https://direct-github.funmore.org/f8/6a/39/f86a39755d70484ac5e35d5bef6918090a51c407f4ae098bd4ffc7082b3e5511674d0b30ede07be2be0b73d8a2be629e09d890a56298cc52147875f5e5e80f61 -> act-0.2.70-funtoo-go-bundle-24b1bd093872dda3460b8936cc99b9f203d89453164d4a6a5f0f421e6500c6c44e989d64289b6c16d4914290fd57cc982f929dd18a11a84a12b7bf1320b2c0b1.tar.gz
+_eclasses_=go-module	cb10a443c46556a15ed035d7a99128e8	xdg-utils	14d00d009167652b1fa363e55effe213
+_md5_=76b25a3e01d7233552ebbca5e90c0f56
