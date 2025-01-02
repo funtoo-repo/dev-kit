@@ -6,8 +6,8 @@ inherit cargo
 
 DESCRIPTION="Source code spell checker"
 HOMEPAGE="https://github.com/crate-ci/typos"
-SRC_URI="https://github.com/crate-ci/typos/tarball/c8fd3764afbf5eaf6e53d2e6571c835db2c8fa5f -> typos-1.29.0-c8fd376.tar.gz
-https://direct-github.funmore.org/e0/39/6e/e0396ed02994ea845bd4318ecac193669a1de695c052b17b4b71f662bb33caa99fab01df9d9b98d94fe9502acaad20d379f3b085e11caeab550c6e77d68391bf -> typos-1.29.0-funtoo-crates-bundle-6dad1b05925cac5d60b39987f4e04f6a39177eecee1284426b6b829936e7def7c021a8cd1f9d0818373947ec4de31ea7dae4ea26e5d0cb6dcb4fcf30e2a7296c.tar.gz"
+SRC_URI="https://github.com/crate-ci/typos/tarball/3265cef783c98e382e561f6089c2179a7d91bf0d -> typos-1.29.1-3265cef.tar.gz
+https://direct-github.funmore.org/39/c2/4f/39c24f5a25f31699f9b217b21cec7dbe79b63a8bf5dba229cea08549f15b43174fa35eb9b20b997ea9f6025c220e23752b3090715e8630e3155659701923a856 -> typos-1.29.1-funtoo-crates-bundle-1f13fb028e0453d89f3fb94540bc5b51e65fff83d89a6e892172627a96a204c774783c347730d0001902ec39023fc4b929a720bbecbe67e2eee337ed453afa92.tar.gz"
 
 LICENSE="Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense ZLIB"
 SLOT="0"
