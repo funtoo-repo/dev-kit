@@ -188,8 +188,9 @@ EGO_SUM=(
 	"github.com/skeema/knownhosts v1.3.0/go.mod"
 	"github.com/spf13/cobra v1.8.1"
 	"github.com/spf13/cobra v1.8.1/go.mod"
-	"github.com/spf13/pflag v1.0.5"
 	"github.com/spf13/pflag v1.0.5/go.mod"
+	"github.com/spf13/pflag v1.0.6"
+	"github.com/spf13/pflag v1.0.6/go.mod"
 	"github.com/stretchr/objx v0.1.0/go.mod"
 	"github.com/stretchr/objx v0.4.0/go.mod"
 	"github.com/stretchr/objx v0.5.0/go.mod"
@@ -220,8 +221,8 @@ EGO_SUM=(
 	"github.com/yuin/goldmark v1.2.1/go.mod"
 	"github.com/yuin/goldmark v1.4.13/go.mod"
 	"go.etcd.io/bbolt v1.3.8/go.mod"
-	"go.etcd.io/bbolt v1.3.11"
-	"go.etcd.io/bbolt v1.3.11/go.mod"
+	"go.etcd.io/bbolt v1.4.0"
+	"go.etcd.io/bbolt v1.4.0/go.mod"
 	"go.etcd.io/gofail v0.1.0/go.mod"
 	"go.opentelemetry.io/auto/sdk v1.1.0"
 	"go.opentelemetry.io/auto/sdk v1.1.0/go.mod"
@@ -327,16 +328,16 @@ EGO_SUM=(
 	"gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c/go.mod"
 	"gopkg.in/yaml.v3 v3.0.1"
 	"gopkg.in/yaml.v3 v3.0.1/go.mod"
-	"gotest.tools/v3 v3.5.1"
-	"gotest.tools/v3 v3.5.1/go.mod"
+	"gotest.tools/v3 v3.5.2"
+	"gotest.tools/v3 v3.5.2/go.mod"
 )
 
 go-module_set_globals
 
 DESCRIPTION="Run your GitHub Actions locally"
 HOMEPAGE="https://github.com/nektos/act"
-SRC_URI="https://github.com/nektos/act/tarball/90b4a4c57b9c5c17ea4bb73580af115a77bbf6d1 -> act-0.2.73-90b4a4c.tar.gz
-https://direct-github.funmore.org/8d/5e/5e/8d5e5e22d61ea728a91347a023121184e029197b54711077ba5c642c28259aea1d158763060159da094a0747d6e8ecbda03bbb7bfe450a8f1caa4b2720af8e3e -> act-0.2.73-funtoo-go-bundle-6dcc209fe64baa7ecdc79c3b7dd43d195ff826e1fc5ffa1d80d864e67cbdc15428b12d0b042180dba43eb7a2b0f6e88ee671f0a9237dfd53316abef76c3e8f54.tar.gz"
+SRC_URI="https://github.com/nektos/act/tarball/94ba31630c869e7cc8705c1f81ac9c448dd94534 -> act-0.2.74-94ba316.tar.gz
+https://direct-github.funmore.org/11/44/68/114468eeb0751bff9f5401a756f1ae0706fd1608965ff2cfb27dd7058cf33f0a5adbe0992c66f5853304193b32aa1c7ab44bb5fa1e9792e4bf370c6b11066972 -> act-0.2.74-funtoo-go-bundle-5cb347e9bf7150383efd621e76087e07ebd43ec6f33d851e163238ca5fbae221f911c2a7c2fd084bafc6c4bd4046a9170c61ae728c5ca2d8511b572881eb91d9.tar.gz"
 
 RDEPEND="
 	app-emulation/docker
