@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=virtual/libudev:= virtual/pkgconfig
+DESCRIPTION=A small and lightweight parser library for ATA S.M.A.R.T. hard disks
+EAPI=7
+HOMEPAGE=https://salsa.debian.org/utopia-team/libatasmart
+IUSE=static-libs
+KEYWORDS=*
+LICENSE=LGPL-2.1
+RDEPEND=virtual/libudev:=
+SLOT=0/4
+SRC_URI=https://archive.debian.org/debian/pool/main/liba/libatasmart/libatasmart_0.19-5.debian.tar.xz -> libatasmart_0.19-5.debian.tar.xz https://archive.debian.org/debian/pool/main/liba/libatasmart/libatasmart_0.19.orig.tar.xz -> libatasmart_0.19.orig.tar.xz
+_eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8
+_md5_=d1f95df4945bd44b3badd46a87eba483
