@@ -172,8 +172,8 @@ EGO_SUM=(
 	"github.com/go-chi/chi v4.1.2+incompatible/go.mod"
 	"github.com/go-jose/go-jose/v3 v3.0.3"
 	"github.com/go-jose/go-jose/v3 v3.0.3/go.mod"
-	"github.com/go-jose/go-jose/v4 v4.0.2"
-	"github.com/go-jose/go-jose/v4 v4.0.2/go.mod"
+	"github.com/go-jose/go-jose/v4 v4.0.5"
+	"github.com/go-jose/go-jose/v4 v4.0.5/go.mod"
 	"github.com/go-logr/logr v1.2.2/go.mod"
 	"github.com/go-logr/logr v1.4.2"
 	"github.com/go-logr/logr v1.4.2/go.mod"
@@ -440,8 +440,9 @@ EGO_SUM=(
 	"github.com/spf13/cast v1.7.0/go.mod"
 	"github.com/spf13/cobra v1.8.1"
 	"github.com/spf13/cobra v1.8.1/go.mod"
-	"github.com/spf13/pflag v1.0.5"
 	"github.com/spf13/pflag v1.0.5/go.mod"
+	"github.com/spf13/pflag v1.0.6"
+	"github.com/spf13/pflag v1.0.6/go.mod"
 	"github.com/spf13/viper v1.19.0"
 	"github.com/spf13/viper v1.19.0/go.mod"
 	"github.com/stretchr/objx v0.1.0/go.mod"
@@ -592,8 +593,8 @@ go-module_set_globals
 
 DESCRIPTION="GitHub CLI"
 HOMEPAGE="https://github.com/cli/cli"
-SRC_URI="https://github.com/cli/cli/tarball/6899fe21dd80873893dd1a3bf3bdd4d33b1b2338 -> cli-2.67.0-6899fe2.tar.gz
-https://direct-github.funmore.org/cf/15/3b/cf153b29d36089c6453f449358b7c5649865b0e4735ac6582ae131853f7d77b4090ef9f2e65a3945f4b69fc487af1c29604d5a4a5372acb7f5eb6dad05b5f680 -> github-cli-2.67.0-funtoo-go-bundle-04d92c06113bdc52042285ec5f5cce3c3c2b27584d70888a8838f9ca5f1414aaef2ff59a927f4bea1b73fe8f7368b8bd561b9dc8c450a00cd27303c40632c53e.tar.gz"
+SRC_URI="https://github.com/cli/cli/tarball/a92528a158cc8d90681a025d992a3b7b3fd7e04a -> cli-2.68.0-a92528a.tar.gz
+https://direct-github.funmore.org/9c/b7/06/9cb7068465e1e9f0d1f18cb68e780ac7a10dfc25d3f49bf8e00d8f124a51278f8edd1cbd6011a8b15c93d13fd05567aa475a266d50c7fdc9f1c0cda2eff28413 -> github-cli-2.68.0-funtoo-go-bundle-aa8f18e284218fe313f43bb2ec29f92bb16daa4faf6b633706f57878144245290052e212ef3ff9442b4c51239b868e030a43316dfa454e6f5eecc910f8cf5bd0.tar.gz"
 KEYWORDS="*"
 LICENSE="MIT Apache-2.0 BSD BSD-2 MPL-2.0"
 SLOT="0"
@@ -605,7 +606,7 @@ post_src_unpack() {
 }
 
 src_compile() {
-	export GH_VERSION="v2.67.0"
+	export GH_VERSION="v2.68.0"
 	# Go LDFLAGS are not the same as GCC/Binutils LDFLAGS
 	unset LDFLAGS
 	# Once we set up cross compiling, this line will need to be adjusted
