@@ -4,15 +4,14 @@ EAPI=7
 
 inherit autotools flag-o-matic toolchain-funcs
 
-SRC_URI="https://github.com/strace/strace/releases/download/v6.14/strace-6.14.tar.xz -> strace-6.14.tar.xz"
-KEYWORDS="*"
-
 DESCRIPTION="A useful diagnostic, instructional, and debugging tool"
 HOMEPAGE="https://strace.io/"
-
+SRC_URI="https://github.com/strace/strace/releases/download/v6.14/strace-6.14.tar.xz -> strace-6.14.tar.xz"
 LICENSE="BSD"
+
 SLOT="0"
 IUSE="aio perl static unwind elfutils"
+KEYWORDS="*"
 
 REQUIRED_USE="?? ( unwind elfutils )"
 
