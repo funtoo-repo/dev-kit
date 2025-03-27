@@ -6,7 +6,7 @@ inherit cmake
 
 DESCRIPTION="High level abstract threading library"
 HOMEPAGE="https://www.threadingbuildingblocks.org"
-SRC_URI="https://github.com/uxlfoundation/oneTBB/tarball/0c0ff192a2304e114bc9e6557582dfba101360ff -> oneTBB-2022.0.0-0c0ff19.tar.gz"
+SRC_URI="https://github.com/uxlfoundation/oneTBB/tarball/45587e94dfb6dfe00220c5f520020a5bc745e92f -> oneTBB-2022.1.0-45587e9.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
