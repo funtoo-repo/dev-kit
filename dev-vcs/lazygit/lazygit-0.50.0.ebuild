@@ -201,8 +201,8 @@ EGO_SUM=(
 	"github.com/jesseduffield/generics v0.0.0-20250406224309-4f541cb84918/go.mod"
 	"github.com/jesseduffield/go-git/v5 v5.14.1-0.20250407170251-e1a013310ccd"
 	"github.com/jesseduffield/go-git/v5 v5.14.1-0.20250407170251-e1a013310ccd/go.mod"
-	"github.com/jesseduffield/gocui v0.3.1-0.20250408140206-7f1bb9232647"
-	"github.com/jesseduffield/gocui v0.3.1-0.20250408140206-7f1bb9232647/go.mod"
+	"github.com/jesseduffield/gocui v0.3.1-0.20250421160159-82c9aaeba2b9"
+	"github.com/jesseduffield/gocui v0.3.1-0.20250421160159-82c9aaeba2b9/go.mod"
 	"github.com/jesseduffield/kill v0.0.0-20250101124109-e216ddbe133a"
 	"github.com/jesseduffield/kill v0.0.0-20250101124109-e216ddbe133a/go.mod"
 	"github.com/jesseduffield/lazycore v0.0.0-20221012050358-03d2e40243c5"
@@ -293,8 +293,8 @@ EGO_SUM=(
 	"github.com/spf13/afero v1.9.5/go.mod"
 	"github.com/spkg/bom v0.0.0-20160624110644-59b7046e48ad"
 	"github.com/spkg/bom v0.0.0-20160624110644-59b7046e48ad/go.mod"
-	"github.com/stefanhaller/git-todo-parser v0.0.7-0.20240406123903-fd957137b6e2"
-	"github.com/stefanhaller/git-todo-parser v0.0.7-0.20240406123903-fd957137b6e2/go.mod"
+	"github.com/stefanhaller/git-todo-parser v0.0.7-0.20250429125209-dcf39e4641f5"
+	"github.com/stefanhaller/git-todo-parser v0.0.7-0.20250429125209-dcf39e4641f5/go.mod"
 	"github.com/stretchr/objx v0.1.0/go.mod"
 	"github.com/stretchr/testify v0.0.0-20161117074351-18a02ba4a312/go.mod"
 	"github.com/stretchr/testify v1.2.2/go.mod"
@@ -705,8 +705,8 @@ EGO_SUM=(
 
 go-module_set_globals
 
-SRC_URI="https://github.com/jesseduffield/lazygit/tarball/5f809809dda06c98e51743ac8c19af6a26a5984b -> lazygit-0.49.0-5f80980.tar.gz
-https://direct-github.funmore.org/05/78/39/057839342ad53d870a3407105aaff7637a2d6a59d033db42c8284682297e44ed88d48d2086d401e3adf95c19933b01c1cafc8df0e9248148cbabf67e8ebc6a9b -> lazygit-0.49.0-funtoo-go-bundle-c42861fe9964c76f45af66db23506b795c0acf5cf0cf2245fa8660213892fee0795f402e6776fdac94d7dc87bb26b49f47e6bdf90a7857e90091740462cc1546.tar.gz"
+SRC_URI="https://github.com/jesseduffield/lazygit/tarball/66caa25dcd4c247589e6adc71a6bc088678f3212 -> lazygit-0.50.0-66caa25.tar.gz
+https://direct-github.funmore.org/65/d7/64/65d76411d4df742b169278f094c7d0e5fa3eda5ac2327574c2f27fad448dc0ba6b512dff7b0bf7005ea750309c6aa3c5a85756460b9910228159865edfe17478 -> lazygit-0.50.0-funtoo-go-bundle-609cbb167caad259491801a42000c0033a47904494c62e6ad56414cf3819e18165afb453db5101f0dcbae8cb48d40899d41bae1f812cca406d7133febabcfd5b.tar.gz"
 
 DESCRIPTION="A simple terminal UI for git commands"
 HOMEPAGE="http://github.com/jesseduffield/lazygit"

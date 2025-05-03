@@ -1,0 +1,12 @@
+BDEPEND=>=virtual/rust-1.37.0
+DEFINED_PHASES=compile configure install test unpack
+DESCRIPTION=A tool for generating C bindings to Rust code
+EAPI=7
+HOMEPAGE=https://github.com/mozilla/cbindgen
+IUSE=debug
+KEYWORDS=*
+LICENSE=Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT MPL-2.0 Apache-2.0 Unlicense ZLIB
+SLOT=0
+SRC_URI=https://github.com/mozilla/cbindgen/tarball/bd78bbe59b10eda6ef1255e4acda95c56c6d0279 -> cbindgen-0.28.0-bd78bbe.tar.gz https://direct-github.funmore.org/9b/65/e4/9b65e4f36b4282b951a9d3cd3353fb5f58b9b0853a5c17ae7579a459c6e836400758475c6e2590b545ae2cf38640b90150d57dcba0d364ef29b86553b2e108bf -> cbindgen-0.28.0-funtoo-crates-bundle-2224364287a75dbc67785fe2d4f2534753c93770049e2c470e6b694074ed9517e241d7fcf1d817097f9894f0aed7a97e562a20bee43ed4ca5956a6d18dbd32a0.tar.gz
+_eclasses_=cargo	a3e90d3e6ca8541d967cff212149cffc	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=0ff993f47ff1b220f5092a2b56c37304
