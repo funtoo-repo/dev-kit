@@ -13,8 +13,8 @@ EGO_SUM=(
 	"cloud.google.com/go/compute/metadata v0.3.0/go.mod"
 	"codeberg.org/tslocum/cbind v0.1.6"
 	"codeberg.org/tslocum/cbind v0.1.6/go.mod"
-	"dario.cat/mergo v1.0.1"
-	"dario.cat/mergo v1.0.1/go.mod"
+	"dario.cat/mergo v1.0.2"
+	"dario.cat/mergo v1.0.2/go.mod"
 	"filippo.io/age v1.2.1"
 	"filippo.io/age v1.2.1/go.mod"
 	"filippo.io/edwards25519 v1.1.0"
@@ -138,8 +138,8 @@ EGO_SUM=(
 	"github.com/charmbracelet/x/cellbuf v0.0.13/go.mod"
 	"github.com/charmbracelet/x/exp/golden v0.0.0-20240815200342-61de596daa2b"
 	"github.com/charmbracelet/x/exp/golden v0.0.0-20240815200342-61de596daa2b/go.mod"
-	"github.com/charmbracelet/x/exp/slice v0.0.0-20250505150409-97991a1f17d1"
-	"github.com/charmbracelet/x/exp/slice v0.0.0-20250505150409-97991a1f17d1/go.mod"
+	"github.com/charmbracelet/x/exp/slice v0.0.0-20250509021451-13796e822d86"
+	"github.com/charmbracelet/x/exp/slice v0.0.0-20250509021451-13796e822d86/go.mod"
 	"github.com/charmbracelet/x/term v0.2.1"
 	"github.com/charmbracelet/x/term v0.2.1/go.mod"
 	"github.com/cloudflare/circl v1.6.1"
@@ -613,8 +613,8 @@ go-module_set_globals
 
 DESCRIPTION="Manage your dotfiles across multiple diverse machines, securely."
 HOMEPAGE="https://github.com/twpayne/chezmoi"
-SRC_URI="https://github.com/twpayne/chezmoi/tarball/803db0df6fd7108be0a81bbee4fb06f17e3d972c -> chezmoi-2.62.3-803db0d.tar.gz
-https://direct-github.funmore.org/68/4a/94/684a9446ab24b4ca123945acb9dddfa1176a2d330066806ed795a62d05020d318e288ea307317d81f58ed640aa056bb800e53e873ba00ffafcad451f53e3e83b -> chezmoi-2.62.3-funtoo-go-bundle-978764d5f671b65416555efe3c371da633d8f7030d40765123cf85ba14d5db18a831685e557f264a77f682a5360e43f7eb0cd100e7b7b0f7edd1e9cd206a45bb.tar.gz"
+SRC_URI="https://github.com/twpayne/chezmoi/tarball/96b8b727683f60494daa4e44d726e1bdf7201dba -> chezmoi-2.62.4-96b8b72.tar.gz
+https://direct-github.funmore.org/6f/ec/b2/6fecb2138c7547000c3a3c55e78edadede23c3936638147f4da187d8888f9873de9f49b2a01e58c05ae3bf3b943892dd417195a4d79ffdb7e4ebe04e43d38d82 -> chezmoi-2.62.4-funtoo-go-bundle-5fc4e59072b29ca29ef44b5272aa3bd27d60f1750f5f42a49f4378b6ffccc34b25b146338ce9c5a66269c3185c838c788e5bdff71f0d8fc08f8c3dfedaa51c73.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
