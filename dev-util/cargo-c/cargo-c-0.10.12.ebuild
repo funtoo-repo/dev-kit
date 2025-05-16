@@ -7,7 +7,7 @@ inherit cargo
 DESCRIPTION="build and install C-compatible libraries"
 HOMEPAGE="https://github.com/lu-zero/cargo-c"
 SRC_URI="https://github.com/lu-zero/cargo-c/tarball/8c5b7af3d6edb6d99f7bffcc94adf550cfee65b3 -> cargo-c-0.10.12-8c5b7af.tar.gz
-https://direct-github.funmore.org/a3/08/a0/a308a0a1c7dc6d9d5307000cc9cb824652185d665909dfdd28b374c612258c65b8e6e87dbfc32b193e1beca6eb042bdaef129334b29988c99fe2abc522d6a22a -> cargo-c-0.10.12-funtoo-crates-bundle-5711d25d3631d8425794c9ba2036c286d2a44823568a21c128cc58a5702ff35c181cb004dc577849832fcd5e86c655133c477746f2292893c8a8bbc6caa3b2a9.tar.gz"
+https://direct-github.funmore.org/a9/25/1e/a9251eb8a6bbe4497292e52ac88c83a106debe2fc2c6292ce44fd27a6d45252f71299b5f4829e4398068b39f6256293b6f96718a4ad769e315b377bd7403e0a6 -> cargo-c-0.10.12-funtoo-crates-bundle-5784f49d964bfe630c6853b13a6838aa38712c8232e3d57a83236275454516341ff629d028c2a2ea384acdc84d3c594573e2fa188c87686f77dc76af0262e81b.tar.gz"
 
 LICENSE="Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense ZLIB"
 SLOT="0"
