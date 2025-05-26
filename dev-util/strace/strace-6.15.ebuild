@@ -6,7 +6,7 @@ inherit autotools flag-o-matic toolchain-funcs
 
 DESCRIPTION="A useful diagnostic, instructional, and debugging tool"
 HOMEPAGE="https://strace.io/"
-SRC_URI="https://github.com/strace/strace/releases/download/v6.14/strace-6.14.tar.xz -> strace-6.14.tar.xz"
+SRC_URI="https://github.com/strace/strace/releases/download/v6.15/strace-6.15.tar.xz -> strace-6.15.tar.xz"
 LICENSE="BSD"
 
 SLOT="0"
