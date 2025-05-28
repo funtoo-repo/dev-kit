@@ -4,7 +4,7 @@ EAPI=7
 
 DESCRIPTION="Deploy a complex environment to an LXD Cluster or LXD standalone installation"
 HOMEPAGE="https://github.com/MottainaiCI/lxd-compose https://mottainaici.github.io/lxd-compose-docs"
-SRC_URI="https://github.com/MottainaiCI/lxd-compose/tarball/50873abfbcf9d2249319e4403665f947f68d4762 -> lxd-compose-0.35.2-50873ab.tar.gz"
+SRC_URI="https://github.com/MottainaiCI/lxd-compose/tarball/763345d54fb979b2763bbd3ce4b827ed745f7f50 -> lxd-compose-0.36.0-763345d.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -19,7 +19,7 @@ post_src_unpack() {
 src_compile() {
 	lxdcompose_ldflags=(
 		"-X \"github.com/MottainaiCI/lxd-compose/cmd.BuildTime=$(date -u '+%Y-%m-%d %I:%M:%S %Z')\""
-		"-X github.com/MottainaiCI/lxd-compose/cmd.BuildCommit=50873abfbcf9d2249319e4403665f947f68d4762"
+		"-X github.com/MottainaiCI/lxd-compose/cmd.BuildCommit=763345d54fb979b2763bbd3ce4b827ed745f7f50"
 		"-X github.com/MottainaiCI/lxd-compose/cmd.BuildGoVersion=$(go env GOVERSION)"
 	)
 
