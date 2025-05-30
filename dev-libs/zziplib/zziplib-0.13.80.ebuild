@@ -9,7 +9,7 @@ inherit cmake flag-o-matic python-any-r1
 
 DESCRIPTION="Lightweight library for extracting data from files archived in a single zip file"
 HOMEPAGE="https://github.com/gdraheim/zziplib https://zziplib.sourceforge.net"
-SRC_URI="https://github.com/gdraheim/zziplib/tarball/c4927d0ca8e3d653c6f433dfb32e957a326a52ab -> zziplib-0.13.79-c4927d0.tar.gz"
+SRC_URI="https://github.com/gdraheim/zziplib/tarball/f58313c1f65f46bf73f3526d1afd4d6bb46cc4ae -> zziplib-0.13.80-f58313c.tar.gz"
 
 LICENSE="|| ( LGPL-2.1 MPL-1.1 )"
 SLOT="0/13"
@@ -28,7 +28,7 @@ DEPEND="
 "
 RDEPEND="${DEPEND}"
 
-S="${WORKDIR}/gdraheim-zziplib-c4927d0"
+S="${WORKDIR}/gdraheim-zziplib-f58313c"
 
 
 src_configure() {
