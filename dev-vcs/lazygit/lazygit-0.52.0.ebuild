@@ -201,8 +201,8 @@ EGO_SUM=(
 	"github.com/jesseduffield/generics v0.0.0-20250517122708-b0b4a53a6f5c/go.mod"
 	"github.com/jesseduffield/go-git/v5 v5.14.1-0.20250407170251-e1a013310ccd"
 	"github.com/jesseduffield/go-git/v5 v5.14.1-0.20250407170251-e1a013310ccd/go.mod"
-	"github.com/jesseduffield/gocui v0.3.1-0.20250522064656-07eb9218e08e"
-	"github.com/jesseduffield/gocui v0.3.1-0.20250522064656-07eb9218e08e/go.mod"
+	"github.com/jesseduffield/gocui v0.3.1-0.20250605111917-fc5387961412"
+	"github.com/jesseduffield/gocui v0.3.1-0.20250605111917-fc5387961412/go.mod"
 	"github.com/jesseduffield/kill v0.0.0-20250101124109-e216ddbe133a"
 	"github.com/jesseduffield/kill v0.0.0-20250101124109-e216ddbe133a/go.mod"
 	"github.com/jesseduffield/lazycore v0.0.0-20221012050358-03d2e40243c5"
@@ -705,8 +705,8 @@ EGO_SUM=(
 
 go-module_set_globals
 
-SRC_URI="https://github.com/jesseduffield/lazygit/tarball/da32b59e11cc769967129d5ac7576c0f31a03ef0 -> lazygit-0.51.1-da32b59.tar.gz
-https://direct-github.funmore.org/8a/cf/bb/8acfbbb90ecc22ec1b62121846b38f9f9e7d6cb6b89985dafad2c378067700df4d92aae40c3bb3779548d0bd8920b4e609b97b4512fc654853cb83f6e8baeb43 -> lazygit-0.51.1-funtoo-go-bundle-0f669377459131947eecf4a1ae9e22fcdc51c7fa0e1a1b7f566a3d8599c3a6c008687330bfe8fa0cb2040438dfb3548c9ca96fbccb024899f79035fa4706453b.tar.gz"
+SRC_URI="https://github.com/jesseduffield/lazygit/tarball/aa331e52b8a0e5da03c59ee6b9bd1d2a9073618c -> lazygit-0.52.0-aa331e5.tar.gz
+https://direct-github.funmore.org/d8/ec/a3/d8eca3e9a00067899ac32be460efe2690c3d203af12e9eb8bbc46eaac62e320c811a189fa0eb4e435277931bf68098571ce123b64225008ae5033e73173acbe2 -> lazygit-0.52.0-funtoo-go-bundle-d5d88e5b1577a7f21e3c4ac11888fc8177efc887ebc24dc8b362049241b587ff7e42cd83fa1ab949f0a6d6736b664f18b56d529b15af3af0b035e22ae02626a7.tar.gz"
 
 DESCRIPTION="A simple terminal UI for git commands"
 HOMEPAGE="http://github.com/jesseduffield/lazygit"
