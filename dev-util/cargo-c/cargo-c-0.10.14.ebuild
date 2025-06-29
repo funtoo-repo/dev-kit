@@ -1,0 +1,28 @@
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+inherit cargo
+
+DESCRIPTION="build and install C-compatible libraries"
+HOMEPAGE="https://github.com/lu-zero/cargo-c"
+SRC_URI="https://github.com/lu-zero/cargo-c/tarball/d1da3c27a0defdceba12c2b2762094cdde6c0337 -> cargo-c-0.10.14-d1da3c2.tar.gz
+https://direct-github.funmore.org/c5/61/42/c56142dc5cf76c267b9bfadc38088873fa19c1d46fc8c88165ae07eab88c4334eed2a1e03c134ca2864414fbffaafe0968dd0964d9824bacd88ad16ee8e47d1a -> cargo-c-0.10.14-funtoo-crates-bundle-14f2ff07f284361c6a2eb94bcf87aa9df9b29e899c0d827f0b9f83898855bd753e2e8f1a4d43bc8f36d034c9137d4dc076c410db861747f55cfc6015d88a9f11.tar.gz"
+
+LICENSE="Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense ZLIB"
+SLOT="0"
+KEYWORDS="*"
+
+DEPEND=""
+RDEPEND="sys-libs/zlib
+	dev-libs/openssl:0=
+	dev-vcs/git
+	net-misc/curl[ssl]
+"
+BDEPEND="virtual/rust"
+
+src_unpack() {
+	cargo_src_unpack
+	rm -rf ${S}
+	mv ${WORKDIR}/lu-zero-cargo-c-* ${S} || die
+}
