@@ -6,8 +6,8 @@ inherit cargo
 
 DESCRIPTION="A Rust compiler front-end for IDEs"
 HOMEPAGE="https://rust-analyzer.github.io/ https://github.com/rust-lang/rust-analyzer"
-SRC_URI="https://github.com/rust-lang/rust-analyzer/tarball/e429bac8793c24a99b643c4813ece813901c8c79 -> rust-analyzer-20250709-e429bac.tar.gz
-https://direct-github.funmore.org/d8/13/f0/d813f091d6ea5d5f9563df016209bf01324422ad2a8b8e234d7dd211b075aaba552533d4599eb713b99612ca8af77fcc12bf6fd1a5a87acbad069d0504f3f773 -> rust-analyzer-20250709-funtoo-crates-bundle-beaf88fa4baa17d1cb8e43e718d7abc5aa3dffe1847ec761a182a24ab507561805d5370b0b978afeaef6b2440ff07adc6e41f7b078f24967b7c884a72494098f.tar.gz"
+SRC_URI="https://github.com/rust-lang/rust-analyzer/tarball/591e3b7624be97e4443ea7b5542c191311aa141d -> rust-analyzer-20250714-591e3b7.tar.gz
+https://direct-github.funmore.org/c5/f8/36/c5f836bb1ebb20830e3a0638869ee83d7e92216c22c4bcc13cc529948926ea53d7ef48d5e4bbe97f7cb2f61222cc1616165de54380bbc104b40d12de9758178c -> rust-analyzer-20250714-funtoo-crates-bundle-81bc8a2150d4545d344e9b328248f38c6ad742fc2b2d8dccc1abd5fefd55b3e427de94b73e8ae72cefdcfa31d29ffe0d6bd82016840417b249634097cf126b30.tar.gz"
 
 LICENSE="Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense ZLIB"
 SLOT="0"
