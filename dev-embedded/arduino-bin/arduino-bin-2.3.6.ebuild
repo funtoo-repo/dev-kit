@@ -9,7 +9,7 @@ HOMEPAGE="https://github.com/arduino/arduino-ide"
 SRC_URI="https://github.com/arduino/arduino-ide/tarball/5af55e3aa4f9f180c5582c5b060017132c228b71 -> arduino-ide-2.3.6-5af55e3.tar.gz"
 LICENSE="GPL-2 LGPL-2.1"
 
-KEYWORDS="-* ~<dyne.org.funtoo.metatools.pkgtools.ebuild.Artifact object at 0x7fca2784a220>"
+KEYWORDS="-* ~<dyne.org.funtoo.metatools.pkgtools.ebuild.Artifact object at 0x7fa3de469a30>"
 SLOT="0"
 IUSE=""
 
