@@ -4,12 +4,12 @@ EAPI="7"
 
 inherit eutils gnome2-utils fdo-mime desktop
 
-DESCRIPTION="{{ desc }}"
-HOMEPAGE="{{ homepage }}"
-SRC_URI="{{ src_uri }}"
-LICENSE="{{ license }}"
+DESCRIPTION="AVR development board IDE and built-in libraries."
+HOMEPAGE="https://github.com/arduino/arduino-ide"
+SRC_URI="https://github.com/arduino/arduino-ide/tarball/5af55e3aa4f9f180c5582c5b060017132c228b71 -> arduino-ide-2.3.6-5af55e3.tar.gz"
+LICENSE="GPL-2 LGPL-2.1"
 
-KEYWORDS="-*{% for arch in artifacts %} ~{{ arch }}{% endfor %}"
+KEYWORDS="-* ~<dyne.org.funtoo.metatools.pkgtools.ebuild.Artifact object at 0x7f85d86c9250>"
 SLOT="0"
 IUSE=""
 
