@@ -1,0 +1,14 @@
+BDEPEND=>=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install postinst prepare setup unpack
+DESCRIPTION=System container image builder for LXC and LXD
+EAPI=7
+HOMEPAGE=https://linuxcontainers.org/distrobuilder/introduction/
+IUSE=kernel_linux
+KEYWORDS=*
+LICENSE=Apache-2.0
+RDEPEND=dev-util/debootstrap app-crypt/gnupg sys-fs/squashfs-tools dev-vcs/git net-misc/rsync
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/lxc/distrobuilder/tarball/1f63bd9328ad4605228640a2800f889f658cf8c3 -> distrobuilder-3.2-1f63bd9.tar.gz https://direct-github.funmore.org/7d/3b/49/7d3b49bd64909c5d4a2238d803f9af74761799959ae20a0f6360c983e6ac5f7a3ce23182e2f7fe5ec27e1ec563a21e75076b0cbede7a09d94f6e6ebeca2c19f0 -> distrobuilder-3.2-funtoo-go-bundle-e5370be7b669b50ff3932a43eb0075f1f21d0fbc48fccf6fdf299f1951408df9b2d51c2e01c87de3731a61b500a7ed1130009bdacd437671b7d10c5d093ae236.tar.gz
+_eclasses_=go-module	cb10a443c46556a15ed035d7a99128e8	linux-info	c90a203b1c14cfa77bd3e37a0e96c955	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	xdg-utils	14d00d009167652b1fa363e55effe213
+_md5_=74c7feff61c4e57783c8db6677104b29
