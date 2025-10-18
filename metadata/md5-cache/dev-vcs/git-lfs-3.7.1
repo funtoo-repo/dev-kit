@@ -1,0 +1,14 @@
+BDEPEND=doc? ( app-text/asciidoctor ) >=dev-lang/go-1.18 >=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install postinst prepare test unpack
+DESCRIPTION=Git extension for versioning large files
+EAPI=7
+HOMEPAGE=https://git-lfs.github.com/
+IUSE=doc test
+KEYWORDS=*
+LICENSE=Apache-2.0 BSD BSD-2 BSD-4 ISC MIT
+RDEPEND=dev-vcs/git
+RESTRICT=strip !test? ( test )
+SLOT=0
+SRC_URI=https://github.com/git-lfs/git-lfs/tarball/a94294cc43168621a7d9609bebef62dbbd2804dd -> git-lfs-3.7.1-a94294c.tar.gz https://direct-github.funmore.org/68/58/ee/6858eeb07e44b941fa5d90f246c831d1b0979600814fa3722b57815648fead30b1b5557ab0f321a4fbb505710a9f3a3828f72667cdb3fad09091b55f2e20fcfd -> git-lfs-3.7.1-funtoo-go-bundle-aca7ed812c10446cfa8ef16c2698f064ad2b6559b48efb60742fa6b853a74db90586dbf06a249053e0a192bf8e0f95c1ed46ace5751546ecfeaefaf8e3c04301.tar.gz
+_eclasses_=go-module	cb10a443c46556a15ed035d7a99128e8	xdg-utils	14d00d009167652b1fa363e55effe213
+_md5_=b566066aa454425d22341bcb71f7303d
