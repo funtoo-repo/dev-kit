@@ -1,0 +1,12 @@
+BDEPEND=>=virtual/rust-1.37.0
+DEFINED_PHASES=compile configure install test unpack
+DESCRIPTION=A language binding generator for WebAssembly interface types
+EAPI=7
+HOMEPAGE=https://github.com/bytecodealliance/wit-bindgen
+IUSE=debug
+KEYWORDS=*
+LICENSE=Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense ZLIB
+SLOT=0
+SRC_URI=https://github.com/bytecodealliance/wit-bindgen/tarball/ba933bda98214ffe2ae16c63b2b91d0932021bbc -> wit-bindgen-0.49.0-ba933bd.tar.gz https://direct-github.funmore.org/8d/07/58/8d07585c1003bad98eab251aaa60aa42efd4797fc4bc9efcfdfa429b94d08acacc3f7533be74a31b42aa962b4122951aa9f91d3ad0da1279ae24969dd4ee6540 -> wit-bindgen-0.49.0-funtoo-crates-bundle-1fde5cd87817bba22462f03b3d23eb5a609697a0bd4eaa9a9aa0c10676df11ac1a0767fe4cfa45fabb1fa483c28a2726f375de107ddc1dc39ac304ee3b3d8543.tar.gz
+_eclasses_=cargo	a3e90d3e6ca8541d967cff212149cffc	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=e1eb52805d124b41564e944b19ccf57b

@@ -319,8 +319,8 @@ go-module_set_globals
 
 DESCRIPTION="Run your GitHub Actions locally"
 HOMEPAGE="https://github.com/nektos/act"
-SRC_URI="https://github.com/nektos/act/tarball/46f1ba47f3530d6be93502b412d8f181b2553d11 -> act-0.2.82-46f1ba4.tar.gz
-https://direct-github.funmore.org/c7/79/2e/c7792e0ab841ae03b052a81814911cbe34534896af96114087f8b15f11aa80f2920b5f9bc2dbaf7cfd7e4f1ae2dfef5dc3edd8d305cbde4269dbbc7ece40305a -> act-0.2.82-funtoo-go-bundle-fbcaf7bf237cb252fb45724f7cdd5a5553f4e891cc93b167050ad0c1f485a0f465a5b903a5c53a85724264b6ad430dee0161c400bcd0de2513e02dda99e143b5.tar.gz"
+SRC_URI="https://github.com/nektos/act/tarball/9fb35e10634d7c02b5c5fc375f4c6dbf91f052f7 -> act-0.2.83-9fb35e1.tar.gz
+https://direct-github.funmore.org/c4/cb/a4/c4cba46fd55af2ea8cfa14508e1434225ae03fa0e0c55b9a52bd5921c582b551358d7ebb5ae550b86911f1fb31f937f1867f8c0836a457622975d03bdd33f749 -> act-0.2.83-funtoo-go-bundle-fbcaf7bf237cb252fb45724f7cdd5a5553f4e891cc93b167050ad0c1f485a0f465a5b903a5c53a85724264b6ad430dee0161c400bcd0de2513e02dda99e143b5.tar.gz"
 
 RDEPEND="
 	app-emulation/docker
